@@ -49,7 +49,6 @@ $(function() {
     $('#target').on('submit', function(e){
         e.preventDefault();
         const input_message = $('#input_message').val()
-        alert("custom js line no 52");
         // return if the user does not enter any text
         if (!input_message) {
             return
